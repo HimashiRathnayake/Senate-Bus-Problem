@@ -25,6 +25,5 @@ Java
 
 ## Output
 
-<!-- ![image_1](./screenshots/image_1.png)
+![image_1](./screenshots/image_1.png)
 ![image_2](./screenshots/image_2.png)
-![image_3](./screenshots/image_3.png) -->
