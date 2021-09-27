@@ -18,11 +18,15 @@ public class BusGenerator extends Thread {
         while (!Thread.currentThread().isInterrupted()) {
 
             try {
+                long next_time = getInterArrivalTime();
+                System.out.println("Bus arrived. Next Bus will arrive after " + String.valueOf(next_time) + " milliseconds");
+
                 Bus bus = new Bus(SemaphoreStore.mutex, SemaphoreStore.bus, SemaphoreStore.allAboard, "Bus_"+String.valueOf(busIndex));
                 bus.start();
 
                 busIndex++;
-                Thread.sleep(getInterArrivalTime());
+
+                Thread.sleep(next_time);
 
             } catch (InterruptedException e) {
                 e.printStackTrace();
