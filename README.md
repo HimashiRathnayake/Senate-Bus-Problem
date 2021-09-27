@@ -1,4 +1,5 @@
-﻿# Senate-Bus-Problem
+<h1 align="center"> Senate-Bus-Problem </h1>
+
 
 This repo contains the syncronization implementation for the **Senate Bus Problem** taken from **Little book of Semaphores**, page 211.
 
@@ -21,3 +22,5 @@ Java
 **Run program:**
 
 `java -cp .\classes SenateBusProblemDemo`
+
+<!-- ## Output -->
