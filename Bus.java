@@ -19,7 +19,7 @@ class Bus extends Thread {
         try {
             this.mutex.acquire();
             // System.out.println("bus rider - "+ SemaphoreDemo.riders);
-            if (SemaphoreDemo.riders > 0) {
+            if (SenateBusProblemDemo.riders > 0) {
                 this.bus.release();
                 this.allAboard.acquire();
             }
