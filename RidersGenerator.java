@@ -17,6 +17,8 @@ public class RidersGenerator extends Thread {
         while (!Thread.currentThread().isInterrupted()) {
 
             try {
+                long next_time = getInterArrivalTime();
+                System.out.println("Rider arrived. Next Rider will arrive after " + String.valueOf(next_time) + " milliseconds");
                 Rider rider = new Rider(SemaphoreStore.mutex, SemaphoreStore.bus, SemaphoreStore.allAboard, SemaphoreStore.multiplex, "Rider_"+String.valueOf(riderIndex));
                 rider.start();
 
