@@ -1,8 +1,8 @@
 ﻿# Senate-Bus-Problem
 
-This repo contains the syncronization implementation for the *Senate Bus Problem* taken from “Little book of Semaphores”, page 211.
+This repo contains the syncronization implementation for the **Senate Bus Problem** taken from **Little book of Semaphores**, page 211.
 
-Problem:
+### Problem:
 
 This problem was originally based on the Senate bus at Wellesley College. Riders come to a bus 
 stop and wait for a bus. When the bus arrives, all the waiting riders invoke boardBus, but anyone who 
@@ -11,11 +11,13 @@ are more than 50 people waiting, some will have to wait for the next bus. When a
 boarded, the bus can invoke depart. If the bus arrives when there are no riders, it should depart 
 immediately.
 
-Programming Language Used:
+**Programming Language Used:**
 Java
 
-Compile Program:
-``javac -d .\classes SenateBusProblemDemo.java``
+**Compile Program:**
 
-Run program
-``java -cp .\classes SenateBusProblemDemo``
+`javac -d .\classes SenateBusProblemDemo.java`
+
+**Run program:**
+
+`java -cp .\classes SenateBusProblemDemo`
