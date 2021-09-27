@@ -31,7 +31,7 @@ class Bus extends Thread {
     }
 
     public void depart() {
-        System.out.println("Bus Depart " + thread_name + "...............");
+        System.out.println(thread_name + " Depart " + "...............");
     }
 
 }
