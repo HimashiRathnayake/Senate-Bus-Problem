@@ -13,3 +13,9 @@ immediately.
 
 Programming Language Used:
 Java
+
+Compile Program:
+``javac -d .\classes SenateBusProblemDemo.java``
+
+Run program
+``java -cp .\classes SenateBusProblemDemo``
