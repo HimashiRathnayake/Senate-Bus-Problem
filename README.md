@@ -12,9 +12,6 @@ are more than 50 people waiting, some will have to wait for the next bus. When a
 boarded, the bus can invoke depart. If the bus arrives when there are no riders, it should depart 
 immediately.
 
-**Programming Language Used:**
-Java
-
 **Compile Program:**
 
 `javac -d .\classes SenateBusProblemDemo.java`
